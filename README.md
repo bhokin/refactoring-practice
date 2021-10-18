@@ -10,7 +10,9 @@ Each subdirectory contains some code that needs refactoring.
 
 ## `time/timestamp.py`
 
-Refactor timestamp.py.  2 or 3 refactorings are possible.
+1.  create `hours`, `minutes`, `seconds` meaning name variable
+2. extract if condition to `is_valid_time()` method
+3. rename `createTimeFromTimestamp` method to `create_time_from_timestamp`
 
 
 ## `game_framework/gamelib.py`
