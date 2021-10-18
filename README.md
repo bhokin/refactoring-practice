@@ -22,7 +22,11 @@ Look for refactorings in the class `GameApp`.
 * Avoid side-effects: replace side effect with return value (the caller must use the return value)
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
-  - Hint: `elements`
+  - Hint: `elements`  
+1. Replace side effect `create_canvas()`method with return value and create a variable that take the return value.  
+2. Replace the string literal with constant `tk.NSEW`.  
+3. Add `add_element()` and `remove_element()` method.  
+4. Extract the parameter of `__init__()` in GameApp class.
 
 ## `recipe/recipe.py` and `recipe/main.py`
 
