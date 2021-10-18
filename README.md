@@ -40,8 +40,8 @@ The Recipe class defines a recipe for a hot beverage with attributes:
 * sugar - units of sugar
 * price - (float) price in Baht
 
-Refactor `main.py`.  What can you do to eliminate the long, boring code?
-
+Refactor `main.py`.  What can you do to eliminate the long, boring code?  
+1. Make a function to create Recipe
 
 
 
